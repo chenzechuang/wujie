@@ -5,7 +5,6 @@
   },
   "version": "0.0.0",
   "description": "极致的微前端框架",
-  "private": true,
   "scripts": {
     "start": "lerna run start --parallel",
     "doc": "lerna run docs:dev",
