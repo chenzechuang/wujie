@@ -460,4 +460,8 @@ export function patchRenderEffect(render: ShadowRoot | Document, id: string, deg
     rawDOMAppendOrInsertBefore: rawBodyInsertBefore as any,
     wujieId: id,
   }) as typeof rawBodyInsertBefore;
+  render.body.removeChild = rewriteRemoveChild({
+    rawElementRemoveChild: rawElementRemoveChild.bind(render.body),
+    wujieId: id,
+  }) as typeof rawElementRemoveChild;
 }
