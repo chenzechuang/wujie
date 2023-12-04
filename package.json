@@ -1,9 +1,9 @@
 {
-  "name": "@czc/wujie-project",
+  "name": "@czc/wujie",
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "极致的微前端框架",
   "scripts": {
     "start": "lerna run start --parallel",
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/Tencent/wujie.git"
   },
-  "author": "yiludege",
+  "author": "chenzechuang",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
